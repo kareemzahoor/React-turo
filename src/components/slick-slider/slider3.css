@@ -1,0 +1,30 @@
+.card-slide3-image>img{
+
+    width: 120px;
+    height: 120px;
+}
+.card-slide3-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-slide3{
+    width: 152px;
+    cursor: pointer;
+    height: 170px;
+    /* background-color: aqua; */
+    border-radius:10px ;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.09) 0px 2px 4px -1px;
+    margin-top: 10%;
+    }
+    
+    .card-slide3-tittle{
+        width: 100%;
+        height:48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    }
+   

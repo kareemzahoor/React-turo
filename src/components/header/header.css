@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+
+height: 60px !important;
+display: flex;
+align-items: center;
+padding-left: 20px;
+padding-right: 20px;
+justify-content: space-between;
+}
+.header-top{
+background-color:rgb(244,244,244);
+width:100%;
+
+}
+.header-top>p:hover{
+    color: #909091;
+}
+.header-top>p{
+    width: auto;
+    text-decoration-line: underline;
+    line-height: 44px;
+    cursor: pointer;
+font-size: 14px;
+display: flex;
+justify-content: center;
+margin: 0;
+border-bottom: #e4e4e7 1px solid;
+}
+.host-btn{
+    
+    border-radius: 0;
+    cursor: pointer;
+    display: inline-block;
+    font-family: BasisGrotesque,Avenir,Helvetica Neue,Helvetica,sans-serif;
+    font-weight: 400;
+    outline: none;
+    position: relative;
+    text-align: center;
+    -webkit-transition: 0.5s all ease;
+    transition: 0.5s all ease;
+    vertical-align: top;
+    white-space: nowrap;
+    font-size: 13px;
+    height: 26px;
+    line-height: 25px;
+    padding: 0 10px;
+    background-color: #FFFFFF;
+    border: 1px solid #414143;
+    color: #414143;
+    height: 27px;
+    margin: 0 12px;
+    /* display: none; */
+}
+.login-btn{
+   text-decoration: none;
+   border: none;
+   height: 26px;
+   margin-left: 20px;
+   padding-top: 0px;
+   background-color: white;
+   cursor: pointer;
+}
+.head-btn{
+display: flex;
+align-items:center ;
+
+}
+@media (max-width: 468px){
+
+.host-btn{
+    display: none;
+}
+}
+
+.offcanvas-backdrop{
+    opacity: 0 !important;
+}
+.offcanvas-body {
+padding-left: 0 !important;
+padding-right: 0 !important;
+}
+.offcanvas-end {
+    width: 320px !important; 
+margin:100px 78px  ;
+height: 427px;
+border-radius: 10px;
+/* position: absolute; */
+transition: 1s !important;
+
+box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;}
+
+
+.dropdown-a{
+    border-bottom: #d2d2d4 1px solid;
+    
+}
+.dropdown-b{
+margin-top: 20px;
+
+}
+.dropdown-head{
+    display: none !important;
+}
+
+@media (max-width: 700px){
+
+    .dropdown-head{
+        display: flex !important;
+    }
+.offcanvas-end {
+width:100% !important;
+margin: 0;
+height:100%;
+border-radius: 0;
+/* -ms-transform-origin-x:top !important; */
+transition: 1.7s !important;
+}
+}
+
+.dropdown-a>p,.dropdown-b>p{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+   font-stretch: expanded;
+   padding: 4px 0px 4px 16px;
+}
+.dropdown-a>p:hover , .dropdown-b>p:hover{
+    background-color: #e5e5e9;
+}

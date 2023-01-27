@@ -1,0 +1,274 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+  .wall-bottom-text{
+margin-top: 20px;
+    font-family: RlFreight, HoeflerText-Black, Times New Roman, serif;
+    font-size: 78px;
+    font-weight: 900;
+    letter-spacing: -1px;
+    line-height: 90px;
+    text-transform: none;
+    text-align: center;
+    font-size-adjust: auto;
+  
+  }
+  .wall-bottom-text-b{
+    font-size:24px;
+    font-weight: bolder;
+  } 
+  @media (max-width: 768px){
+  .wall-bottom-text{
+    font-size: 70px;
+  }
+  .wall-bottom-text-b{
+    font-size: larger;
+  } 
+}
+  .wall-bottom-text-b{
+    text-align: center;
+    margin-top: 10px;
+    font-size-adjust: auto;
+  
+  }
+  body{
+    font-size-adjust: auto;
+  }
+
+  .slider-1{
+    /* margin: 4% 6% 20px 9%; */
+    margin-bottom: 20px;
+   
+  }
+/* .slide-1-small{
+  display: none;
+}
+
+.slide-1-medium{
+  display: none;
+}
+.slide-1-large{
+  display: none;
+}
+ */
+
+@media (max-width: 700px){
+  .accordion-main{
+
+    flex-direction: column;
+  align-items: center;} 
+  .accordion-main>div{
+    width: 100%;
+  }
+  
+  .wall-bottom-text{
+
+       font-size: 40px;
+     
+    }
+.abs-div-p3{
+display: none;
+}
+.abs-div{
+width: 70% !important;
+}
+.svg-div-text1{
+  position: relative !important;
+  top: auto !important;
+  left: auto !important;
+}
+  
+.svg-div-text2{
+  position: relative !important;
+top: auto !important;
+left: auto !important;
+}
+.svg-div-image{
+  width: 100%;
+}
+
+.svg-div-image>svg{
+  width: 100%;
+}
+   
+  }
+
+  .all-body-center{
+width: 70%;
+margin: 0 auto;
+
+  }
+
+  .slider-2{
+
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+
+
+
+  .text-btn{
+    /* margin: 30px  40% 10px 40% !important; */
+   display: flex;
+   justify-content: center;
+    width:100%;
+}
+.image-div-main{
+width: 100%;
+display: flex;
+justify-content: end;
+position: relative;
+margin: 40px 0 50px 0;
+}
+.abs-div{
+  width: 40%;
+  height: auto;
+  position: absolute;
+  background-color: black;
+  top: 22%;
+  left: 0;
+  padding: 27px;
+}
+.abs-div-p1{
+  margin: 0;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+    font-family: RlBasisGrotesque, Avenir, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+.abs-div-p2{
+  font-family: RlBasisGrotesque, Avenir, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 900;
+    letter-spacing: -0.2px;
+    line-height: 32px;
+    color: white;
+    text-transform: none;
+}
+.abs-div-p3{
+  font-family: RlBasisGrotesque, Avenir, Helvetica Neue, Helvetica, sans-serif;
+    font-size:120%;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 22px;
+    color: white;
+    text-transform: none;
+}
+.abs-div-p4{
+margin-top: 18%;
+  color: white;
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+.image-div{
+  background-image: url("https://blog.turo.com/blog/wp-content/uploads/2021/04/Kyle_Engman_21-copy-2_lesssmall.jpg");
+width: 90%;
+height: 500px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.svg-div{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+}
+.svg-div-text1>h3{
+color:#593CFB ;
+font-weight: 700;
+font-size: xx-large;
+}
+.svg-div-text1{
+  position: absolute;
+  top: 17%;
+  left: 18%;
+  width: 240px;
+  text-align: center;
+}
+
+.svg-div-text2>h3{
+  color:#593CFB ;
+  font-weight: 700;
+  font-size: xx-large;
+  }
+  .svg-div-text2{
+    position: absolute;
+    top: 60%;
+    left: 57%;
+    width: 240px;
+    text-align: center;
+  }
+  .accordion-main{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* flex-direction: column; */
+  }
+  .accordion-a{
+    width: 49%;
+display: flex;
+flex-direction: column !important;
+
+  }
+  .accordion-b{
+    width: 49%;
+
+   display: flex;
+   flex-direction: column;
+  }
